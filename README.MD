@@ -1,45 +1,42 @@
-# Smart City Traffic Prediction
+# Smart City Traffic Prediction Using AI, IoT, and Data Analytics
+
+## 🚀 Live Application
+
+https://smart-city-traffic-prediction-using-da-fscesezpyyjjrsycrbgwkx.streamlit.app/
+
+[Open Smart City Traffic Prediction Dashboard](https://smart-city-traffic-prediction-using-da-fscesezpyyjjrsycrbgwkx.streamlit.app/)
 
 ## Project Overview
 
-This project demonstrates a basic AI-based traffic congestion
-prediction system using Python, machine learning, and data analytics.
+This project demonstrates machine learning for predicting traffic congestion levels using traffic-related features.
 
-The application predicts traffic congestion categories:
-LOW, MODERATE, and HIGH.
+### Technologies Used
 
-## Objectives
+* Python
+* Streamlit
+* Pandas
+* NumPy
+* Scikit-learn
+* Matplotlib
 
-- Demonstrate traffic data analysis.
-- Apply a Random Forest classification model.
-- Predict congestion using traffic-related features.
-- Visualize traffic patterns using charts.
-- Evaluate model performance using classification metrics.
-- Demonstrate an interactive dashboard.
+### Features
 
-## Technologies Used
+* Traffic congestion prediction
+* Machine learning classification using Random Forest
+* Interactive dashboard and visualizations
+* Traffic dataset preview
+* Congestion category analysis
 
-- Python
-- Streamlit
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
+### How to Run Locally
 
-## Features
+1. Clone or download this repository.
 
-1. Simulated traffic dataset generation.
-2. Traffic data visualization.
-3. Machine learning model training.
-4. Interactive congestion prediction.
-5. Model evaluation and confusion matrix.
-6. CSV dataset download.
+2. Install the required libraries:
 
-## Installation
+   `pip install -r requirements.txt`
 
-Install Python 3.11 or another compatible Python version.
+3. Run the application:
 
-Open a terminal inside the project folder and run:
+   `streamlit run app.py`
 
-```bash
-pip install -r requirements.txt
+**Note:** The current implementation uses simulated traffic data for demonstration and does not connect to live traffic sensors.
